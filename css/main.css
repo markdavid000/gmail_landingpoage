@@ -2,7 +2,7 @@
 
 html,
 body {
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 * {
@@ -114,7 +114,7 @@ input[type='text']::-webkit-input-placeholder {
   grid-template-columns: 1fr 18fr 1fr;
 }
 
-.side_bar {
+#side_bar {
   display: flex;
   flex-direction: column;
   margin-right: 2rem;
@@ -226,6 +226,7 @@ input[type='text']::-webkit-input-placeholder {
 
 ::-webkit-scrollbar {
   width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
